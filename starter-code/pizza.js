@@ -102,7 +102,7 @@ function renderButtons() {
     btn.classList.remove("active")
   }
 
-  let btn = document.querySelector(".btn-mushrooms")
+  btn = document.querySelector(".btn-mushrooms")
   
   if(state.mushrooms){
     btn.classList.add("active")
@@ -112,7 +112,7 @@ function renderButtons() {
     btn.classList.remove("active")
   }
 
-  let btn = document.querySelector(".btn-green-peppers")
+  btn = document.querySelector(".btn-green-peppers")
   
   if(state.greenPeppers){
     btn.classList.add("active")
@@ -122,7 +122,7 @@ function renderButtons() {
     btn.classList.remove("active")
   }
 
-  let btn = document.querySelector(".btn-sauce")
+  btn = document.querySelector(".btn-sauce")
   
   if(state.whiteSauce){
     btn.classList.add("active")
@@ -132,7 +132,7 @@ function renderButtons() {
     btn.classList.remove("active")
   }
 
-  let btn = document.querySelector(".btn-crust")
+  btn = document.querySelector(".btn-crust")
   
   if(state.glutenFreeCrust){
     btn.classList.add("active")
