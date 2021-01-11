@@ -92,36 +92,56 @@ function renderGlutenFreeCrust() {
 
 function renderButtons() {
   // Iteration 3: add/remove the class "active" of each `<button class="btn">`
-  if(state.pepperoni){
-    document.querySelector('.btn-pepperoni').classList.add("active")
+  let btn = document.querySelector(".btn-pepperoni")
+  
+  if(state.pepperonni){
+    btn.classList.add("active")
   }
+
   else{
-    document.querySelector('.btn-pepperoni').classList.remove("active")
+    btn.classList.remove("active")
   }
+
+  let btn = document.querySelector(".btn-mushrooms")
+  
   if(state.mushrooms){
-    document.querySelector('.btn-mushrooms').classList.add("active")
+    btn.classList.add("active")
   }
+
   else{
-    document.querySelector('.btn-mushrooms').classList.remove("active") 
+    btn.classList.remove("active")
   }
+
+  let btn = document.querySelector(".btn-green-peppers")
+  
   if(state.greenPeppers){
-    document.querySelector('.btn-green-peppers').classList.add("active")
+    btn.classList.add("active")
   }
+
   else{
-    document.querySelector('.btn-green-peppers').classList.remove("active") 
+    btn.classList.remove("active")
   }
+
+  let btn = document.querySelector(".btn-sauce")
+  
   if(state.whiteSauce){
-    document.querySelector('.btn-sauce').classList.add("active")
+    btn.classList.add("active")
   }
+
   else{
-    document.querySelector('.btn-sauce').classList.remove("active") 
+    btn.classList.remove("active")
   }
+
+  let btn = document.querySelector(".btn-crust")
+  
   if(state.glutenFreeCrust){
-    document.querySelector('.btn-crust').classList.add("active")
+    btn.classList.add("active")
   }
+
   else{
-    document.querySelector('.btn-crust').classList.remove("active") 
+    btn.classList.remove("active")
   }
+
 }
 
 function renderPrice() {
